@@ -1,0 +1,48 @@
+.todo-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e293b;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.todo-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.todo-content h4 {
+  margin: 0;
+  color: #a78bfa;
+}
+
+.todo-content p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #cbd5f5;
+}
+
+.todo-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.delete-btn {
+  background: #ef4444;
+  border: none;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
+
